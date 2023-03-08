@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">lab2</string>
+    <string name="button_quit_label">Quit</string>
+    <string name="button_settings_label">Settings</string>
+    <string name="button_help_label">Help</string>
+    <string name="button_about_label">About</string>
 </resources>
