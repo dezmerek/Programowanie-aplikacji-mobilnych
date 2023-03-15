@@ -1,18 +1,198 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:padding="@dimen/inner_margin">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="@dimen/inner_margin"
+                android:layout_weight="1"
+                android:src="@drawable/deck"
+                android:onClick="onClickButton" />
+
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="@dimen/inner_margin"
+                android:layout_weight="1"
+                android:src="@drawable/deck"
+                android:onClick="onClickButton" />
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="@dimen/inner_margin"
+                android:layout_weight="1"
+                android:src="@drawable/deck"
+                android:onClick="onClickButton" />
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="@dimen/inner_margin"
+                android:layout_weight="1"
+                android:src="@drawable/deck"
+                android:onClick="onClickButton" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="@dimen/inner_margin"
+                android:layout_weight="1"
+                android:src="@drawable/deck"
+                android:onClick="onClickButton" />
+
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="@dimen/inner_margin"
+                android:layout_weight="1"
+                android:src="@drawable/deck"
+                android:onClick="onClickButton" />
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="@dimen/inner_margin"
+                android:layout_weight="1"
+                android:src="@drawable/deck"
+                android:onClick="onClickButton" />
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="@dimen/inner_margin"
+                android:layout_weight="1"
+                android:src="@drawable/deck"
+                android:onClick="onClickButton" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="@dimen/inner_margin"
+                android:layout_weight="1"
+                android:src="@drawable/deck"
+                android:onClick="onClickButton" />
+
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="@dimen/inner_margin"
+                android:layout_weight="1"
+                android:src="@drawable/deck"
+                android:onClick="onClickButton" />
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="@dimen/inner_margin"
+                android:layout_weight="1"
+                android:src="@drawable/deck"
+                android:onClick="onClickButton" />
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="@dimen/inner_margin"
+                android:layout_weight="1"
+                android:src="@drawable/deck"
+                android:onClick="onClickButton" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="@dimen/inner_margin"
+                android:layout_weight="1"
+                android:src="@drawable/deck"
+                android:onClick="onClickButton" />
+
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="@dimen/inner_margin"
+                android:layout_weight="1"
+                android:src="@drawable/deck"
+                android:onClick="onClickButton" />
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="@dimen/inner_margin"
+                android:layout_weight="1"
+                android:src="@drawable/deck"
+                android:onClick="onClickButton" />
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="@dimen/inner_margin"
+                android:layout_weight="1"
+                android:src="@drawable/deck"
+                android:onClick="onClickButton" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/startGameButton"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:onClick="onClikStartGameButton"
+        android:text="start game"
+        app:layout_constraintBottom_toTopOf="@+id/summaryButton"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
+    <Button
+        android:id="@+id/summaryButton"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="Your Results"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/startGameButton" />
 </androidx.constraintlayout.widget.ConstraintLayout>
