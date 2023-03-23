@@ -3,12 +3,12 @@ plugins {
 }
 
 android {
-    namespace 'com.nobleprog.lab4'
+    namespace 'pl.wsei.pam.lab'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.nobleprog.lab4"
-        minSdk 28
+        applicationId "pl.wsei.pam.lab"
+        minSdk 24
         targetSdk 33
         versionCode 1
         versionName "1.0"
